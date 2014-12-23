@@ -185,6 +185,10 @@ manipulatorMouseClick <- function()
 
 manipulate <- function(`_expr`, ...)
 {
+  # verify we are running in RStudio
+  if (!isAvailable())
+    stop("The manipulate package must be run from within RStudio")
+
   # create new list container for the manipulator
   manipulator <- new.env(parent = parent.frame())
   manipulator$.id <- createUUID()
@@ -250,5 +254,7 @@ manipulate <- function(`_expr`, ...)
   invisible(NULL)
 }
 
-
+isAvailable <- function() {
+  identical(.Platform$GUI, "RStudio")
+}
 
