@@ -28,10 +28,6 @@ manipulate(`_expr`, ...)
   The \code{\link{manipulatorSetState}} and \code{\link{manipulatorGetState}} functions can be used to associate custom state with a manipulator (for example, to track the values used for previous plot executions). These values are stored in a custom environment which is stored along with the rest of the manipulator context.
 }
 
-\author{
-RStudio <info@rstudio.com>
-}
-
 \examples{
 \dontrun{
 

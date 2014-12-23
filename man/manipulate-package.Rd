@@ -18,17 +18,9 @@ After this code is executed the plot is drawn using an initial value of 1 for \c
 }
 
 
-
-\author{
-RStudio
-
-Maintainer: RStudio <info@rstudio.com>
-}
-
-
-\keyword{ package }
-\keyword{ dynamic }
-\keyword{ iplot }
+\keyword{package}
+\keyword{dynamic}
+\keyword{iplot}
 
 \examples{
 \dontrun{
