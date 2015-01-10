@@ -11,7 +11,7 @@ manipulate(`_expr`, ...)
 
 \arguments{
   \item{_expr}{
-    Expression to evalulate. The expression should result in the creation of a plot (e.g. \code{plot} or \code{qplot}). Note that the expression need not be a top-level plotting function, it could also be a custom function that creates a plot as part of its implementation. This expression will be re-evaluated with appropriate parameter substitution each time one of the manipulator control values is changed.
+    Expression to evaluate. The expression should result in the creation of a plot (e.g. \code{plot} or \code{qplot}). Note that the expression need not be a top-level plotting function, it could also be a custom function that creates a plot as part of its implementation. This expression will be re-evaluated with appropriate parameter substitution each time one of the manipulator control values is changed.
 }
   \item{\dots}{
     One or more named control arguments (i.e. \code{\link{slider}}, \code{\link{picker}}, \code{\link{checkbox}}, or \code{\link{button}}), or a list containing named controls.
